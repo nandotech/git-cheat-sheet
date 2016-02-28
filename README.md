@@ -1,9 +1,10 @@
 Git Cheat Sheet - git-flow [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===============
 After configuration, 3 commands to mainly remember to commit:
-git add --all
-git commit -m "Your commit message here"
-git push --all
+* git add --all
+* git commit -m "Your commit message here"
+* git push --all
+In that order.
 
 When updating existing repo:
 git pull
