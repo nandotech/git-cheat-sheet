@@ -1,17 +1,22 @@
 Git Cheat Sheet - git-flow [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===============
-After configuration, 3 commands to mainly remember to commit:
+# After configuration, 3 commands to mainly remember to commit to existing repo:
 * git add --all
 * git commit -m "Your commit message here"
 * git push --all
 
 In that order.
 
-When updating existing repo:
+When updating existing repo folder on machine:
 git pull
 * If it fails:
 * 1. git stash (takes your repo to last known commit)
 * 2. git pull (will now pull to newest commit available)
+
+Creating new Repos:
+* 1. In folder where you will be adding code, type "git init"
+* 2. git remote add origin https://github.com/user/repo.git
+* Follow steps above for commiting to existing
 
 ===============
 
