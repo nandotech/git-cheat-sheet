@@ -4,6 +4,7 @@ After configuration, 3 commands to mainly remember to commit:
 * git add --all
 * git commit -m "Your commit message here"
 * git push --all
+
 In that order.
 
 When updating existing repo:
