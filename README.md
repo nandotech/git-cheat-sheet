@@ -1,26 +1,18 @@
 Git Cheat Sheet - git-flow [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 ===============
-<hr>
-<p align="center">
-	<img alt="Git" src="./Img/git-logo.png" height="190" width="455">
-</p>
-<hr>
-# Other Available Languages:
-1. [Chinese Git Cheat Sheet](https://github.com/ArslanBilal/Git-Cheat-Sheet/blob/master/other-sheets/git-cheat-sheet-zh.md)
-2. [Hindi Git Cheat Sheet](https://github.com/arslanbilal/git-cheat-sheet/blob/master/other-sheets/git-cheat-sheet-hi.md)
-3. [Turkish Git Cheat Sheet](https://github.com/ArslanBilal/Git-Cheat-Sheet/blob/master/other-sheets/git-cheat-sheet-tr.md)
-4. [Spanish Git Cheat Sheet](https://github.com/ArslanBilal/Git-Cheat-Sheet/blob/master/other-sheets/git-cheat-sheet-es.md)
+After configuration, 3 commands to mainly remember to commit:
+git add --all
+git commit -m "Your commit message here"
+git push --all
 
-## PDF versions:
-1. [English Cheat Sheet](https://github.com/ArslanBilal/Git-Cheat-Sheet/blob/master/pdf/git-cheat-sheet.pdf)
+When updating existing repo:
+git pull
+* If it fails:
+* 1. git stash (takes your repo to last known commit)
+* 2. git pull (will now pull to newest commit available)
 
-Git cheat sheet saves you from learning all the commands by heart.
-
-Be free to contribute, update the grammar mistakes. You are also free to add your language file.
-<hr>
-
-Git Cheat Sheet English
 ===============
+
 ###Index
 * [Set Up](#setup)
 * [Configuration Files](#configuration-files)
